@@ -1,0 +1,38 @@
+﻿@page "/track_shipment"
+
+
+<body>
+    <h1 style="color:rebeccapurple; font-family:'Segoe UI'" ;">Track Your Shipment Over Here!</h1>
+    <br />
+    <table>
+        <tr>
+            <td>
+                <p>
+                    <h5 style="padding-right:20px">
+                        You can always monitor the whole course of your order to your door with our parcel tracking service,
+                        regardless of whose online store or marketplace you purchased the goods from.
+                    </h5>
+                </p>
+                <br />
+                <form action="/action_page.php">
+                    <br /><label for="package">Package ID: </label>
+                    <input type="text" id="package" name="package" value="">
+
+                    <br />
+                    <input type="button" onclick="window.location='/user_information'" value="Find Package">
+                    <input type="reset">
+                    <br />
+                </form>
+            </td>
+            <td>
+                <img src="https://cdn.pixabay.com/photo/2016/05/30/15/44/lion-1425003_960_720.png" height="350" width="300"/>
+            </td>
+        </tr>
+    </table>
+    <hr class="solid"/>
+    <p>Looking to make changes regarding your package? Click <a href="/change_details">here</a></p>
+</body>
+
+@code {
+
+}

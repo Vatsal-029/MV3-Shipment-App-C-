@@ -1,0 +1,37 @@
+﻿@page "/data_update"
+
+<body>
+    <h1 style="color:rebeccapurple; font-family:'Segoe UI'" ;">Update Your Shipment</h1>
+    <form action="/action_page.php" ; style="padding-right:20px">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <label for="package">Package ID:</label><br>
+        <input type="text" id="package" name="package" value=""><br>
+
+        <label for="address">Postal Address:</label><br>
+        <input type="text" id="address" name="address" value=""><br>
+
+        <label for="new_address">New Postal Address:</label><br>
+        <input type="text" id="new_address" name="new_address" value=""><br />
+
+        <br />
+        <p>Cancel Package? </p>
+        <input type="radio" id="yes" name="cancel_package" value="Yes">
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="cancel_package" value="No">
+        <label for="no">NO</label><br>
+
+        <input type="button" onclick="window.location='/success'" value="Submit">
+
+    </form>
+    <br /><hr class="solid" />
+    <p>Looking for your package? Click <a href="/track_shipment">here</a></p>
+</body>
+
+@code {
+
+}

@@ -1,0 +1,25 @@
+﻿@page "/user_information"
+
+<body>
+    <h1 style="color:rebeccapurple; font-family:'Segoe UI'" ;">Package Details</h1>
+    <hr />
+    <table>
+        <tr>
+            <td>
+                <p> First Name: </p><hr />
+                <p> Last Name: </p><hr />
+                <p> Package Details: </p><hr />
+                <p> Postal Address of Recipient: </p><hr />
+            </td>
+        </tr>
+    </table>
+    <input type="button" onclick="window.location='/'" value="Home">
+    <input type="button" value="Update Details?" onclick="window.location='/data_update'">
+
+    <br /><hr class="solid" />
+    <p>Looking for another package? Click <a href="/track_shipment">here</a></p>
+</body>
+
+@code {
+
+}

@@ -1,0 +1,92 @@
+﻿@page "/"
+
+<body style="font-family:'Segoe UI'">
+    <h1 style="color:rebeccapurple;">MV3 Shipment Tracking</h1>
+    <table>
+        <tr>
+            <td>
+                <p>
+                    <h5 style="text-align: justify; padding-right:20px">
+                        A one stop solution for tracking your packages globally! Currently servicing courier information from FedEx, Amazon,
+                        ASOS, Canada Post, US Post, AliExpress, and UPS.
+                        <br />
+                        Regardless of the online store or the market you have purchased,
+                        you can always trace the full path of the order with our parcel tracking service
+                    </h5> <br />
+                    <br />
+                </p>
+                <br />
+                <input type="button" value="Find Package" onclick="window.location = '/track_shipment';">
+            </td>
+            <td>
+                <img src="https://cdn.pixabay.com/photo/2016/11/21/13/20/port-1845350_960_720.jpg" width="450" height="400" />
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <h4 style="text-align:center"> All your International parcel tracking done right!</h4>
+    <h6 style="text-align:center">Find out how to track any parcel or package from anywhere around the world</h6>
+    <br /><table style="padding:20px; background-color:ButtonFace">
+    <tr>
+        <td>
+            <h5 style="padding:20px">How do I track my international parcel?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                It can be difficult to track an international parcel since you need to know which carrier will handle delivery and when the international
+                delivery business will transfer the parcel on to a local postal or courier provider. All of the aforementioned are non-issues with our package tracking.
+                <br />
+                You'll get a detailed history of tracking events, an estimated arrival time, current parcel status and position, and connections to each official
+                carrier's website with a prefilled tracking id, so you can be confident your tracking information is accurate.
+            </h6>
+        </td>
+        <td>
+            <h5 style="padding:20px">How do I track a package?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                What's new about tracking a package with our postal tracker is that you need just a tracking number and that's it.
+                No need to guess carrier, no need to manually track with multiple carriers and no need to translate tracking status to understand what it means in Chinese.
+                <br />
+                To track a package enter your tracking number on this page and hit Find Package.
+            </h6>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5 style="padding:20px">What if I missed a delivery?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                If you missed a delivery, you should see a door tag at the delivery address. This provides you with instructions on how to retrieve your package.
+            </h6>
+        </td>
+        <td>
+            <h5 style="padding:20px">What does Package in Transit mean?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                In transit means that your package is on its way to its final destination. It does not necessarily mean that your package is in a moving vehicle such as 
+                an aircraft or truck. It may be at a one of your courier providers facility.
+            </h6>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5 style="padding:20px">What does it mean if my package is out for delivery?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                Out for delivery means that your package was scanned by a package handler and placed onto a pallet to be loaded onto a truck for delivery. 
+                You can check the estimated time window your package will be delivered online, helping make planning around your delivery easy.
+            </h6>
+        </td>
+        <td>
+            <h5 style="padding:20px">What does it mean if the message says delivery exception?</h5>
+            <h6 style="padding:20px; text-align:justify">
+                Delivery exception means that an unexpected event is preventing delivery of your package. Some examples of delivery exceptions include a customs delay, 
+                holiday closure impacts, missing documentation or other situations.
+            </h6>
+        </td>
+    </tr>
+    <tr>
+    </tr>
+</table>
+
+    <br /><input type="button" value="About Us" onclick="window.location='/about'" />
+    <hr />
+</body>
+
+@code {
+    
+}
