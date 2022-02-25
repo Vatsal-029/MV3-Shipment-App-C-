@@ -1,0 +1,32 @@
+﻿[
+  {
+    "FirstName": "Alex",
+    "LastName": "Summer",
+    "PackageID": "CAD0001",
+    "PostalAddress": "57 Brookyln Road"
+  },
+  {
+    "FirstName": "Jenko",
+    "LastName": "Tatum",
+    "PackageID": "CAD0002",
+    "PostalAddress": "21 Jumpstreet"
+  },
+  {
+    "FirstName": "Schimidt",
+    "LastName": "Hill",
+    "PackageID": "CAD0003",
+    "PostalAddress": "22 Jumpstreet"
+  },
+  {
+    "FirstName": "Tony",
+    "LastName": "Stank",
+    "PackageID": "CAD0004",
+    "PostalAddress": "NYC Avengers Tower"
+  },
+  {
+    "FirstName": "Justin",
+    "LastName": "Bieber",
+    "PackageID": "CAD0005",
+    "PostalAddress": "Camridge Ontario"
+  }
+]
